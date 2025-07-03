@@ -15,7 +15,7 @@ const Portfolio = () => {
   const [error, setError] = useState(null);
 
   // Configuration API (solution simple et robuste)
-  const API_BASE = process.env.REACT_APP_API_URL || 'http://localhost:5000/api';
+  const API_BASE = process.env.REACT_APP_API_URL;
 
   // Informations personnelles (statiques)
   const personalInfo = {
@@ -26,7 +26,7 @@ const Portfolio = () => {
     phone: "+212 6 89 74 62 48",
     location: "Beni Mellal, Maroc",
     github: "https://github.com/yasser296",
-    linkedin: "https://www.linkedin.com/in/www.linkedin.com/in/yasser-fakir-23a598349"
+    linkedin: "https://linkedin.com/in/yasser-fakir-23a598349"
   };
 
   // Fonction pour faire des appels API
